@@ -31,3 +31,12 @@
     font-size: 36px;
     color: whitesmoke;
 }
+
+#resume-download-btn{
+    outline: none;
+    background-color: transparent;
+    border: 5px solid rgba(130, 185, 215, 255);
+    border-radius: 10px;
+    width: 20%;
+    color: rgba(130, 185, 215, 255);
+}
