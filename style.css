@@ -40,3 +40,12 @@
     width: 20%;
     color: rgba(130, 185, 215, 255);
 }
+
+.footer-container{
+    background-color: rgba(130, 185, 215, 255);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
