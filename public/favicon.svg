@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="14" fill="#0d1117" />
+  <circle cx="32" cy="32" r="27" fill="#161b22" stroke="#30363d" stroke-width="2" />
+  <defs>
+    <clipPath id="avatarClip">
+      <circle cx="32" cy="32" r="24" />
+    </clipPath>
+  </defs>
+  <image
+    href="https://github.com/SriragHariharan.png?size=96"
+    x="8"
+    y="8"
+    width="48"
+    height="48"
+    preserveAspectRatio="xMidYMid slice"
+    clip-path="url(#avatarClip)"
+  />
+</svg>

@@ -1,0 +1,62 @@
+export const projectEntries = [
+  {
+    id: 'leaf',
+    title: 'Leaf - Social platform for travelers',
+    highlights: [
+      'Architected a 7-service microservices platform with an API gateway, rate limiting, and service-level separation.',
+      'Migrated the feed service to Golang, leveraging lightweight goroutines for high-concurrency timeline reads.',
+      'Built a scalable fan-out timeline system with cursor pagination for infinite-scroll personalized feeds.',
+      'Implemented event-driven notifications with Kafka consumers and JWT-authenticated Socket.IO delivery.',
+      'Developed Module Federation microfrontends for host, auth, and social/profile domains.',
+      'Delivered an admin moderation dashboard for user management, content control, and report handling.',
+    ],
+    tech: [
+      'React 18',
+      'TypeScript',
+      'Node.js',
+      'Go',
+      'Kafka',
+      'Redis',
+      'Elasticsearch',
+      'Prisma',
+      'MongoDB',
+      'CockroachDB',
+      "MySQL",
+      'Docker',
+      'Kubernetes',
+      'Module Federation',
+    ],
+  },
+  {
+    id: 'twenty-two-yards',
+    title: '22 Yards - Multi-vendor e-commerce platform',
+    highlights: [
+      'Implemented buyer product discovery with merchandising, categories, search, sorting, and filtering.',
+      'Built a complete Razorpay checkout flow with order creation, verification, and payment status updates.',
+      'Enabled seller inventory management with product creation, editing, pricing, and listing controls.',
+      'Managed full order lifecycle tracking from confirmation to delivery for sellers and buyers.',
+      'Delivered dual-role authentication and protected account workflows for both buyer and seller personas.',
+    ],
+    tech: [
+      'React 18',
+      'Vite',
+      'Redux Toolkit',
+      'React Redux',
+      'React Router DOM',
+      'Axios',
+      'Node.js',
+      'Express',
+      'MongoDB',
+      'Mongoose',
+      'JWT',
+      'bcrypt',
+      'Razorpay',
+      'Cloudinary',
+    ],
+  },
+]
+
+export const moreProjects = {
+  label: 'More projects on GitHub',
+  href: 'https://github.com/SriragHariharan?tab=repositories',
+}
