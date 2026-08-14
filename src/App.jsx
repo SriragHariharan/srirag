@@ -6,10 +6,10 @@ import { ProfileLayout } from './components/ProfileLayout'
 import { ProfileSidebar } from './components/ProfileSidebar'
 import { ProfileTabs } from './components/ProfileTabs'
 import { ProfileReadme } from './components/ProfileReadme'
-import { RoutePanel } from './components/RoutePanel'
 import { SkillsCardsPanel } from './components/SkillsCardsPanel'
 import { EducationPanel } from './components/EducationPanel'
 import { ProjectsPanel } from './components/ProjectsPanel'
+import { ExperiencePanel } from './components/ExperiencePanel'
 
 const THEME_KEY = 'theme'
 
@@ -52,10 +52,7 @@ function App() {
             <EducationPanel />
           </Route>
           <Route path="/experience">
-            <RoutePanel
-              title="Experience"
-              description="Professional experience, roles, and key contributions will be listed here."
-            />
+            <ExperiencePanel />
           </Route>
         </Switch>
       </ProfileLayout>
