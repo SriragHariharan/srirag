@@ -21,6 +21,12 @@ export const profile = {
       href: 'https://www.linkedin.com/in/srirag-h/',
       bg: '#0077B5',
       icon: 'linkedin',
+    },
+    {
+      label: 'Resume',
+      href: 'https://drive.google.com/file/d/1LaKfGlKQ3RXB0EyY7PU0qk53YhL3Cc5O/view',
+      bg: '#9A6700',
+      icon: 'resume',
     }
   ],
   skills: [

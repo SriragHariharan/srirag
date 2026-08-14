@@ -1,9 +1,10 @@
-import { Mail, Link, Globe } from 'lucide-react'
+import { Mail, Link, Globe, FileText } from 'lucide-react'
 
 const linkIcons = {
   gmail: Mail,
   linkedin: Link,
   portfolio: Globe,
+  resume: FileText,
 }
 
 export function ProfileReadme({ profile }) {
