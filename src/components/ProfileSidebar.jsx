@@ -3,6 +3,10 @@ import { MapPin } from 'lucide-react'
 export function ProfileSidebar({ profile }) {
   const { name, username, avatarUrl, tagline, location, followers, following } = profile
 
+  const openExternal = (url) => {
+    window.open(url, '_blank', 'noopener,noreferrer')
+  }
+
   return (
     <div className="lg:sticky lg:top-8">
       <div className="flex flex-col">
@@ -23,6 +27,7 @@ export function ProfileSidebar({ profile }) {
 
         <button
           type="button"
+          onClick={() => openExternal(`https://github.com/${username}`)}
           className="mb-4 w-full rounded-md border border-btn-border bg-btn-bg px-4 py-[5px] text-sm font-medium text-fg shadow-sm hover:bg-btn-hover"
         >
           Follow

@@ -17,6 +17,12 @@ export const profile = {
       icon: 'gmail',
     },
     {
+      label: 'GitHub',
+      href: 'https://github.com/SriragHariharan/',
+      bg: '#24292f',
+      icon: 'github',
+    },
+    {
       label: 'LinkedIn',
       href: 'https://www.linkedin.com/in/srirag-h/',
       bg: '#0077B5',
