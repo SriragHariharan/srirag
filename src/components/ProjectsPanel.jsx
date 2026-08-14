@@ -22,6 +22,22 @@ export function ProjectsPanel() {
           >
             <h3 className="text-lg font-semibold text-fg">{project.title}</h3>
 
+            {project.links.length > 0 && (
+              <div className="mt-3 flex flex-wrap gap-2">
+                {project.links.map((link) => (
+                  <button
+                    key={link.label}
+                    type="button"
+                    onClick={() => openExternal(link.href)}
+                    className="rounded-md border border-btn-border bg-btn-bg px-2.5 py-1 text-xs font-medium text-fg hover:bg-btn-hover"
+                    aria-label={`Open ${link.label}`}
+                  >
+                    {link.label}
+                  </button>
+                ))}
+              </div>
+            )}
+
             <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-fg-muted">
               {project.highlights.map((highlight) => (
                 <li key={highlight}>{highlight}</li>

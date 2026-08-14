@@ -3,7 +3,7 @@ export const experienceEntries = [
     id: 'kubenine',
     period: 'Dec 2025 - Feb 2026',
     role: 'Software Engineering Intern',
-    company: 'Kubenine',
+    company: 'Kubenine Consulting',
     highlights: [
       'Engineered internal tooling using FastAPI, React, and REST APIs reducing manual effort.',
       'Contributed UI updates and new feature additions to a live production application.',
