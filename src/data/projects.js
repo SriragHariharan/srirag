@@ -48,6 +48,46 @@ export const projectEntries = [
     ],
   },
   {
+    id: 'sillypoint',
+    title: 'Sillypoint — Live Cricket Tournament & Scoring Platform',
+    links: [
+      {
+        label: 'Live',
+        href: 'https://sillypoint-pi.vercel.app',
+      },
+      {
+        label: 'Frontend',
+        href: 'https://github.com/SriragHariharan/sillypoint-frontend',
+      },
+      {
+        label: 'Backend',
+        href: 'https://github.com/SriragHariharan/sillypoint-backend',
+      },
+    ],
+    highlights: [
+      'Built a live cricket tournament platform covering the full lifecycle: tournament creation, team registration with deadlines, match scheduling, ball-by-ball scoring and results.',
+      'Designed a TypeScript scoring engine that handles wides, no-balls, byes, leg byes, overthrows, wickets, free hits, retirements and undo, saving every ball as a permanent record and deciding the result automatically.',
+      'Added Super Overs for tied matches, with a boundary-count tie-break when the Super Over is also tied.',
+      'Built broadcast-style live scorecards for spectators (batting, bowling, fall of wickets, over-by-over chart) that refresh every 3 seconds, with server-side caching so unchanged scores are not rebuilt or resent.',
+      'Auto-calculated points table with points, net run rate and recent form for every team.',
+      'Mobile-first scoring pad that fits on one screen, with private link + PIN access per match so scorers need no account.',
+      'Passwordless OTP login with secure refresh-token sessions, plus one-click demo accounts for organizers and team managers.',
+    ],
+    tech: [
+      'React.js',
+      'Zustand',
+      'Tailwind CSS',
+      'TypeScript',
+      'Node.js',
+      'Express.js',
+      'PostgreSQL',
+      'Drizzle ORM',
+      'Zod',
+      'JWT',
+      'Cloudinary',
+    ],
+  },
+  {
     id: 'twenty-two-yards',
     title: '22 Yards — Multi-Vendor E-Commerce Platform',
     links: [

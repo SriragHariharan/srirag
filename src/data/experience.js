@@ -1,7 +1,7 @@
 export const experienceEntries = [
   {
     id: 'kubenine',
-    period: 'Dec 2025 - Feb 2026',
+    period: 'Sept 2025 - Feb 2026',
     role: 'Software Engineering Intern',
     company: 'Kubenine Consulting',
     highlights: [
