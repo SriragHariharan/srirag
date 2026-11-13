@@ -30,7 +30,7 @@ export const profile = {
     },
     {
       label: 'Resume',
-      href: 'https://drive.google.com/file/d/1LaKfGlKQ3RXB0EyY7PU0qk53YhL3Cc5O/view',
+      href: 'https://drive.google.com/file/d/1mKRjti_mUAy0QYzQmIcn5sSMVhnDZ5TH/view?usp=sharing',
       bg: '#9A6700',
       icon: 'resume',
     }
